@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicles>
+<vehicle>
+<id>VEHICLE 1</id>
+<frame>
+<material>PLASTIC</material>
+</frame>
+<wheels>
+<wheel>
+<position>LEFT REAR</position>
+<material>PLASTIC</material>
+</wheel>
+<wheel>
+<position>RIGHT REAR</position>
+<material>PLASTIC</material>
+</wheel>
+<wheel>
+<position>FRONT</position>
+<material>PLASTIC</material>
+</wheel>
+</wheels>
+<powertrain>
+<type>HUMAN</type>
+</powertrain>
+</vehicle>
+<vehicle>
+<id>VEHICLE 2</id>
+<frame>
+<material>METAL</material>
+</frame>
+<wheels>
+<wheel>
+<position>REAR</position>
+<material>METAL</material>
+</wheel>
+<wheel>
+<position>FRONT</position>
+<material>METAL</material>
+</wheel>
+</wheels>
+<powertrain>
+<type>HUMAN</type>
+</powertrain>
+</vehicle>
+<vehicle>
+<id>VEHICLE 3</id>
+<frame>
+<material>PLASTIC</material>
+</frame>
+<wheels>
+<wheel>
+<position>LEFT REAR</position>
+<material>PLASTIC</material>
+</wheel>
+<wheel>
+<position>RIGHT REAR</position>
+<material>PLASTIC</material>
+</wheel>
+<wheel>
+<position>FRONT</position>
+<material>PLASTIC</material>
+</wheel>
+</wheels>
+<powertrain>
+<type>HUMAN</type>
+</powertrain>
+</vehicle>
+<vehicle>
+<id>VEHICLE 4</id>
+<frame>
+<material>METAL</material>
+</frame>
+<wheels>
+<wheel>
+<position>REAR</position>
+<material>METAL</material>
+</wheel>
+<wheel>
+<position>FRONT</position>
+<material>METAL</material>
+</wheel>
+</wheels>
+<powertrain>
+<type>HUMAN</type>
+</powertrain>
+</vehicle>
+<vehicle>
+<id>VEHICLE 5</id>
+<frame>
+<material>METAL</material>
+</frame>
+<wheels>
+<wheel>
+<position>REAR</position>
+<material>METAL</material>
+</wheel>
+<wheel>
+<position>FRONT</position>
+<material>METAL</material>
+</wheel>
+</wheels>
+<powertrain>
+<type>HUMAN</type>
+</powertrain>
+</vehicle>
+<vehicle>
+<id>VEHICLE 6</id>
+<frame>
+<material>METAL</material>
+</frame>
+<wheels>
+<wheel>
+<position>REAR LEFT</position>
+<material>METAL</material>
+</wheel>
+<wheel>
+<position>FRONT LEFT</position>
+<material>METAL</material>
+</wheel>
+<wheel>
+<position>REAR RIGHT</position>
+<material>METAL</material>
+</wheel>
+<wheel>
+<position>FRONT RIGHT</position>
+<material>METAL</material>
+</wheel>
+</wheels>
+<powertrain>
+<type>INTERNAL COMBUSTION</type>
+</powertrain>
+</vehicle>
+</vehicles>

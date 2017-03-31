@@ -1,0 +1,37 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="vehicles" type="vehiclesType"/>
+  <xs:complexType name="frameType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="material"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="wheelType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="position"/>
+      <xs:element type="xs:string" name="material"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="wheelsType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="wheelType" name="wheel"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="powertrainType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="type"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="vehicleType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="id"/>
+      <xs:element type="frameType" name="frame"/>
+      <xs:element type="wheelsType" name="wheels"/>
+      <xs:element type="powertrainType" name="powertrain"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="vehiclesType">
+    <xs:sequence>
+      <xs:element type="vehicleType" name="vehicle" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
